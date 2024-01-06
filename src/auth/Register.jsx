@@ -140,6 +140,8 @@ const Register = () => {
           {showConfirmPassword ? 'Hide' : 'Show'}
         </button>
         <button type="submit">Register</button> 
+        <div className="or-line">OR</div>
+        <button onClick={()=>navigate("/login")}>Login</button>
       </form>
     </div>
   );

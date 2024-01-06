@@ -50,4 +50,16 @@
   .main-form button[type='button']:hover {
     background-color: #eee;
   }
+  .or-line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
   
+  .or-line::before,
+  .or-line::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black; /* Adjust properties as needed */
+    margin: 0 10px; /* Adjust space between line and text */
+  }
