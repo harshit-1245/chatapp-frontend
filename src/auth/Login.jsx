@@ -56,7 +56,7 @@ const Login = () => {
 
         
         window.localStorage.setItem('userId', response.data.id);
-        navigate("/"); // Redirect to main page after successful login
+        navigate("/Main"); // Redirect to main page after successful login
       }
     } catch (error) {
       // Handle error cases
